@@ -3,4 +3,4 @@
 
 ## What is LowJS?
 
-LowJS is the JS compiler, and the wife project of Pyeta.
+LowJS provides web support for, and is the wife project of Pyeta.

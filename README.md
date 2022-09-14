@@ -3,4 +3,4 @@
 
 ## What is LowJS?
 
-LowJS is a worse variant of Javascript, and the wife project of Pyeta.
+LowJS is the JS compiler, and the wife project of Pyeta.

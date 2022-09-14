@@ -299,7 +299,7 @@ if __name__ == "__main__":
             else:
                 return True
             
-global def runPyeta(code):
+def runPyeta(code):
     parsed = Parser(code)
     exec(parsed.code)
 

@@ -8,5 +8,13 @@ LowJS provides web support for, and is the wife project of Pyeta. Pyeta, but mad
 ```
 <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
 <script defer src="https://pyscript.net/latest/pyscript.js"></script> 
-<py-script src="PUT LINK TO LOWJS HERE"></py-script> 
+<py-script>
+import urllib
+
+ljslink = "https://raw.githubusercontent.com/NodeMixaholic/LowJS/main/lowjs.py"
+f = urllib.urlopen(ljslink)
+lowjs = f.read()
+exec(lowjs)
+
+</py-script> 
 ```

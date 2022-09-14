@@ -10,7 +10,7 @@ index.html:
 
 <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
 <script defer src="https://pyscript.net/latest/pyscript.js"></script> 
-<py-script src="https://raw.githubusercontent.com/NodeMixaholic/LowJS/main/lowjs.py"></py-script>
+<py-script src="./modules/lowjs.py"></py-script>
 <py-script src="main.py"></py-script> 
 ```
 

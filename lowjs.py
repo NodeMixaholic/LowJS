@@ -1,4 +1,3 @@
-from error import Error
 import builtins
 
 class Parser:
@@ -172,7 +171,7 @@ class Parser:
                             break
 
         if leftBracesAmount != rightBracesAmount:
-            Error(("Braces amount is not equal"))
+            print("Braces amount is not equal")
 
         newCode = ""
         splitLines = code.splitlines();

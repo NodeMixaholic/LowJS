@@ -3,7 +3,7 @@
 
 ## What is LowJS?
 
-LowJS provides web support for, and is the wife project of Pyeta. Pyeta, but made for PyScript
+LowJS provides web support for, and is the wife project of Pyeta. Pyeta, but made for PyScript and the web.
 
 ```
 <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />

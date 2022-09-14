@@ -16,6 +16,10 @@ def deineLowJS():
   f = urllib.urlopen(ljslink)
   lowjs = f.read()
   exec(lowjs)
+  
+# And then we interface with LowJS' Pyeta subsystem like so...
+runPyeta("""console.writeLine('Hello, world!')
+console.writeLine('Note that this does not work with Pyetas Panda3D/PyGame tools.')""")
 
 </py-script> 
 ```

@@ -1,4 +1,5 @@
 from error import Error
+import builtins
 
 class Parser:
     def __init__(self, code: str):
@@ -301,3 +302,5 @@ if __name__ == "__main__":
 global def runPyeta(code):
     parsed = Parser(code)
     exec(parsed.code)
+
+builtins.runPyeta = runPyeta

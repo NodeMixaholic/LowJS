@@ -300,6 +300,6 @@ if __name__ == "__main__":
             
 def getPyeta(code):
     parsed = Parser(code)
-    print(parsed.code)
+    return parsed.code
 
 builtins.runPyeta = runPyeta

@@ -17,7 +17,7 @@ index.html:
 ```
 main.py:
 
-runPyeta("""console.writeLine('Hello, world!')
-console.writeLine('Note that this does not work with Pyetas Panda3D/PyGame tools.')""")
+exec(getPyeta("""console.writeLine('Hello, world!')
+console.writeLine('Note that this does not work with Pyetas Panda3D/PyGame tools.')"""))
 
 ```

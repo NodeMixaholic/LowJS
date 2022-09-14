@@ -11,10 +11,11 @@ LowJS provides web support for, and is the wife project of Pyeta. Pyeta, but mad
 <py-script>
 import urllib
 
-ljslink = "https://raw.githubusercontent.com/NodeMixaholic/LowJS/main/lowjs.py"
-f = urllib.urlopen(ljslink)
-lowjs = f.read()
-exec(lowjs)
+def deineLowJS():
+  ljslink = "https://raw.githubusercontent.com/NodeMixaholic/LowJS/main/lowjs.py"
+  f = urllib.urlopen(ljslink)
+  lowjs = f.read()
+  exec(lowjs)
 
 </py-script> 
 ```

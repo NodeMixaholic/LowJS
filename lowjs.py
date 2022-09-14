@@ -298,8 +298,8 @@ if __name__ == "__main__":
             else:
                 return True
             
-def runPyeta(code):
+def getPyeta(code):
     parsed = Parser(code)
-    exec(parsed.code)
+    print(parsed.code)
 
 builtins.runPyeta = runPyeta

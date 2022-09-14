@@ -15,7 +15,7 @@ index.html:
 ```
 
 ```
-main.py:
+main.py (this is where the python part comes in):
 
 eta = getPyeta("""
 group Main() {
@@ -29,4 +29,10 @@ group Main() {
 exec(eta)
 
 
+```
+```
+./modules/lowjs
+
+
+#THIS SHOULD BE THE LOWJS SOURCE CODE.
 ```

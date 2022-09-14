@@ -302,4 +302,4 @@ def getPyeta(code):
     parsed = Parser(code)
     return parsed.code
 
-builtins.runPyeta = runPyeta
+builtins.getPyeta = getPyeta
